@@ -25,7 +25,7 @@ function setup() {
     bubbles.push(b);
   }
 }
-
+text(windowWidth,windowWidth/8,windowHeight/3);
 //function mousePressed(){
   //for (let i = 0;i<bubbles.length;i++){
     //bubbles[i].clicked();
