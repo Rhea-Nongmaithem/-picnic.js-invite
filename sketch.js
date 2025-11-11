@@ -54,20 +54,20 @@ function draw(){
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to learn',windowWidth/2,windowHeight/2);
+    text('Come over to learn',windowWidth/2,windowHeight*(3/8);
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER);
-    text('Come over to create',(windowWidth/2),(windowHeight/2)+ windowHeight/16);
+    text('Come over to create',(windowWidth/2),windowHeight*(4/8));
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to share some fun ideas',(windowWidth/2),(windowHeight/2)+ (windowHeight/8));
-    text('with p5.js',(windowWidth/2),(windowHeight/2)+ windowWidth/4);
+    text('Come over to share some fun ideas',(windowWidth/2),windowHeight*(5/8));
+    text('with p5.js',(windowWidth/2),windowHeight/2*(6/8));
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER);
-    text('This Friday, November the 14th, at Juno...and beyond',windowWidth/2, windowHeight*(3/4));
+    text('This Friday, November the 14th, at Juno...and beyond',windowWidth/2, windowHeight*(7/8));
   }
 
 class Bubble {
