@@ -47,7 +47,7 @@ function draw(){
     textFont('Retro Gaming');
 
     fill(random(textcolour));
-    text('Hello!', 100, 100);
+    text('Hello!',windowWidth/8,windowWidth/8);
 
     fill(random(textcolour));
     text('The first picnic.js is here!!',310,200);
