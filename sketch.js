@@ -12,12 +12,13 @@ let textcolour = [' #e37979ff',' #6339d5ff','#c63bd0ff']
 let colours = [' #e7feadf1',' #bffbff64',' #e3bbffd8', ' #54197070', ' #ff85c0af','#9f93ffaf'];
 
 function setup() {
-  createCanvas(1500,780);
+  scale(0.5);
+  createCanvas(windowWidth,windowHeight);
   frameRate(20)
   textSize(32);
   for (let i = 0;i<num;i++){
-    let x = random(width);
-    let y = random(height);
+    let x = random(windowWidth);
+    let y = random(windowHeight);
     let r = random(50,80);
     b = new Bubble(x,y,r);
     bubbles.push(b);
@@ -53,15 +54,15 @@ function draw(){
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to learn',(width/2),height/2-50);
+    text('Come over to learn',(windowWidth/2),windowHeight/2-50);
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to create',(width/2),(height/2)+ 50);
+    text('Come over to create',(windowWidth/2),(windowHeight/2)+ 50);
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to share some fun ideas',(width/2),(height/2)+ 150);
+    text('Come over to share some fun ideas',(windowWidth/2),(windowHeight/2)+ 150);
     text('with p5.js',(width/2),(height/2)+ 200);
 
     fill(random(textcolour));
@@ -101,4 +102,3 @@ class Bubble {
       }
     }
   }
-  
