@@ -56,7 +56,7 @@ function draw(){
   
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to learn',windowWidth/2,windowHeight*(3/8);
+    text('Come over to learn',windowWidth/2,windowHeight*(3/8));
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER);
