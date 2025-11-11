@@ -13,7 +13,8 @@ let colours = [' #e7feadf1',' #bffbff64',' #e3bbffd8', ' #54197070', ' #ff85c0af
 
 function setup() {
   scale(0.5);
-  createCanvas(windowWidth,windowHeight);
+  canvas = createCanvas(windowWidth,windowHeight);
+  canvas.parent('c');
   frameRate(20)
   textSize(32);
   for (let i = 0;i<num;i++){
