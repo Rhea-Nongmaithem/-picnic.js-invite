@@ -50,7 +50,7 @@ function draw(){
     text('Hello!',windowWidth/8,windowWidth/8);
 
     fill(random(textcolour));
-    text('The first picnic.js is here!!',windowWidth/8,windowHeight/8);
+    text('The first picnic.js is here!!',windowWidth/3,windowHeight/8);
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
