@@ -16,7 +16,7 @@ function setup() {
   canvas = createCanvas(windowWidth,windowHeight);
   canvas.parent('c');
   frameRate(20)
-  textSize(32);
+  textSize(24);
   for (let i = 0;i<num;i++){
     let x = random(windowWidth);
     let y = random(windowHeight);
@@ -25,7 +25,6 @@ function setup() {
     bubbles.push(b);
   }
 }
-text(windowWidth,windowWidth/8,windowHeight/3);
 //function mousePressed(){
   //for (let i = 0;i<bubbles.length;i++){
     //bubbles[i].clicked();
@@ -51,24 +50,24 @@ function draw(){
     text('Hello!',windowWidth/8,windowWidth/8);
 
     fill(random(textcolour));
-    text('The first picnic.js is here!!',310,200);
+    text('The first picnic.js is here!!',windowWidth/4,windowWidth/3);
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to learn',(windowWidth/2),windowHeight/2-50);
-
-    fill(random(textcolour));
-    textAlign(CENTER, CENTER)
-    text('Come over to create',(windowWidth/2),(windowHeight/2)+ 50);
-
-    fill(random(textcolour));
-    textAlign(CENTER, CENTER)
-    text('Come over to share some fun ideas',(windowWidth/2),(windowHeight/2)+ 150);
-    text('with p5.js',(width/2),(height/2)+ 200);
+    text('Come over to learn',windowWidth/2,windowHeight/2-windowWidth/16);
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER);
-    text('This Friday, November the 14th, at Juno...and beyond',700, 700);
+    text('Come over to create',(windowWidth/2),(windowHeight/2)+ windowWidth/16);
+
+    fill(random(textcolour));
+    textAlign(CENTER, CENTER)
+    text('Come over to share some fun ideas',(windowWidth/2),(windowHeight/2)+ (windowWidth/16)*3);
+    text('with p5.js',(width/2),(height/2)+ windowWidth/4);
+
+    fill(random(textcolour));
+    textAlign(CENTER, CENTER);
+    text('This Friday, November the 14th, at Juno...and beyond',windowWidth/2, (windowHeight/16)*14);
   }
 
 class Bubble {
