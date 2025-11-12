@@ -51,15 +51,16 @@ function draw(){
     text('Hello!',windowWidth/8,windowWidth/8);
 
     fill(random(textcolour));
-    text('The first picnic.js is here and you are invited!!',windowWidth*(4/16),windowHeight/4);
+    text('The first picnic.js is here',windowWidth*(3/16),windowHeight*(3/16);
+    text('and you are invited.',windowWidth*(4/16),windowHeight/8);
   
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to learn',windowWidth/2,windowHeight*(6/16));
+    text('Come over to learn,',windowWidth/2,windowHeight*(6/16));
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER);
-    text('Come over to create',(windowWidth/2),windowHeight*(7/16));
+    text('Come over to create,',(windowWidth/2),windowHeight*(7/16));
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
