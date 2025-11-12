@@ -52,9 +52,9 @@ function draw(){
 
     fill(random(textcolour));
     textAlign(LEFT);
-    text('The first picnic.js is here',windowWidth*(7/16),windowHeight*(2/16));
+    text('The first picnic.js is here',windowWidth/8,windowHeight*(2/16));
     textAlign(LEFT);
-    text('and you are invited.',windowWidth*(7/16),windowHeight*(3/16));
+    text('and you are invited.',windowWidth/8,windowHeight*(3/16));
   
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
