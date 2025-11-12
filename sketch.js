@@ -51,7 +51,7 @@ function draw(){
     text('Hello!',windowWidth/8,windowWidth/8);
 
     fill(random(textcolour));
-    text('The first picnic.js is here!!',windowWidth/8,windowHeight/4);
+    text('The first picnic.js is here and you are invited!!',windowWidth*(4/16),windowHeight/4);
   
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
@@ -67,9 +67,9 @@ function draw(){
     text('with p5.js',(windowWidth/2),windowHeight*(9/16));
 
     fill(random(textcolour));
+    text('This Friday, November the 14th',windowWidth/2, windowHeight*(6/8));
     textAlign(CENTER, CENTER);
-    text('This Friday, November the 14th, at Juno...and beyond',windowWidth/2, windowHeight*(6/8));
-  }
+    text('at  Juno...and beyond',windowWidth/2, windowHeight*(13/16));}
 
 class Bubble {
     constructor(x,y,r){
