@@ -11,8 +11,7 @@ let bgcolour = [' #fff9c8dc'];
 let textcolour = [' #e37979ff',' #6339d5ff','#c63bd0ff']
 let colours = [' #e7feadf1',' #bffbff64',' #e3bbffd8', ' #54197070', ' #ff85c0af','#9f93ffaf'];
 function preLoad(){
-  myfont = ('Retro Gaming.ttf');
-myFont = loadFont('assets/fonts/myFont.ttf');
+  myFont = loadFont('assets/fonts/Retro Gaming.ttf');}
 function setup(){
   scale(0.5);
   canvas = createCanvas(windowWidth,windowHeight);
@@ -46,7 +45,7 @@ function draw(){
         bubbles[i].show();
     }
 
-    textFont('Retro Gaming');
+    textFont(myfont);
 
     fill(random(textcolour));
     text('Hello!',windowWidth/8,windowWidth/8);
