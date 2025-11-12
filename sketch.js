@@ -45,30 +45,30 @@ function draw(){
         bubbles[i].show();
     }
 
-    textFont('New Courier');
+    textFont('Courier New');
 
     fill(random(textcolour));
     text('Hello!',windowWidth/8,windowWidth/8);
 
     fill(random(textcolour));
-    text('The first picnic.js is here!!',windowWidth/3,windowHeight/8);
+    text('The first picnic.js is here!!',windowWidth/8,windowHeight/4);
   
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to learn',windowWidth/2,windowHeight*(3/8));
+    text('Come over to learn',windowWidth/2,windowHeight*(6/16));
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER);
-    text('Come over to create',(windowWidth/2),windowHeight*(4/8));
+    text('Come over to create',(windowWidth/2),windowHeight*(7/16));
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER)
-    text('Come over to share some fun ideas',(windowWidth/2),windowHeight*(5/8));
-    text('with p5.js',(windowWidth/2),windowHeight/2*(6/8));
+    text('Come over to share some fun ideas',(windowWidth/2),windowHeight*(8/16));
+    text('with p5.js',(windowWidth/2),windowHeight*(9/16));
 
     fill(random(textcolour));
     textAlign(CENTER, CENTER);
-    text('This Friday, November the 14th, at Juno...and beyond',windowWidth/2, windowHeight*(7/8));
+    text('This Friday, November the 14th, at Juno...and beyond',windowWidth/2, windowHeight*(6/8));
   }
 
 class Bubble {
