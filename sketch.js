@@ -48,6 +48,7 @@ function draw(){
     textFont('Courier New');
 
     fill(random(textcolour));
+    textAlign(LEFT);
     text('Hello!',windowWidth/8,windowWidth/8);
 
     fill(random(textcolour));
