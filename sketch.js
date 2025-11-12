@@ -49,7 +49,7 @@ function draw(){
 
     fill(random(textcolour));
     textAlign(LEFT);
-    text('Hello!',windowWidth/8,windowWidth/8);
+    text('Hello!',windowWidth/16,windowWidth/8);
 
     fill(random(textcolour));
     textAlign(LEFT);
